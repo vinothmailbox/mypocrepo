@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    argocd/app-name: argocd-api
+  name: my-argoCD-component
+spec:
+  type: service
+  lifecycle: production
+  owner: users-team
+argocd: 
+  baseUrl: https://localhost:9090/applications/argocd/guestbook?view=tree&resource=
