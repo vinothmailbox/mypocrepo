@@ -26,7 +26,7 @@ metadata:
     - url: https://localhost:9090/applications/argocd/guestbook?view=tree&resource=
       title: ArgoCD Dashboard
       type: metrics-dashboard
-  spec:
+spec:
     type: service
     lifecycle: production
     owner: users-team
